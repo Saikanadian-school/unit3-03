@@ -1,0 +1,106 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, -2}, {308, 38}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "F8E4EA16-1EF4-4992-B231-D5E99F66317E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "rock paper or scissors ",
+          "name" : "label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 238}, {193, 66}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1DDF7637-19D3-4FC2-848B-61A51E50E061",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 44}, {277, 50}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label2",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "12E0A253-D49E-48EB-A1C5-6FDF72F86067",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "1=rock 2=paper 3= scissors",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 102}, {200, 54}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "guess_textfield",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "DF6DDB6C-72BD-4F94-870D-A9372E8EBF98",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 164}, {193, 50}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "check",
+          "uuid" : "F8E6AF5E-FDCE-475B-80CA-7330B2558EDB",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
